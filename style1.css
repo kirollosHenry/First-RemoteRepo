@@ -49,7 +49,7 @@ header {
 
 
 
-header .navbar a{
+header .navbar a ,#logoutButton ,#Welcome{
 font-size: 1.7rem;
 border-radius: .5rem;
 padding: .5rem 1.5rem;
@@ -57,12 +57,12 @@ color:var(--light-color);
 text-decoration: none;
 
 }
-header .navbar a.active ,header .navbar a:hover{
+header .navbar a.active ,header .navbar a:hover,#logoutButton{
     color:#fff;
     background:var(--green);
 }
 
-header .icons i , header .icons a{
+header .icons i , header .icons a {
     cursor: pointer;
     margin-left: .5rem;
     height:4.5rem;
@@ -272,3 +272,4 @@ header .icons #menu-bars{
         width: 25%;
     }
 }
+
