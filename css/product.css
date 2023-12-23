@@ -29,7 +29,12 @@ a {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1370px;
+    width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 1320px;
   }
 }
 .overlay{
@@ -110,7 +115,7 @@ a {
 .drop-down{
   position: relative;
   width: fit-content;
-  left: -50px;
+  left: -20px;
   border: 1px solid #ccc;
   padding: 10px 20px;
   border-radius: 50px
